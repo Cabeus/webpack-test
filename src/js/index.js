@@ -9,3 +9,8 @@ const aaa = require('./student.json');
 
 console.log(aaa.name);
 console.log(aaa.age);
+
+
+setInterval(()=>{
+	console.log("hello")
+},1000)

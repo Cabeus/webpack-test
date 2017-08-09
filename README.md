@@ -33,3 +33,11 @@
 
 ##安装json-loader
 		npm install --save-dev 
+		
+		
+		
+
+
+##插件
+ - 压缩文件 UglifyjsWebpackPlugin
+ - 不压缩css文件ExtractTextWebpackPlugin
