@@ -5,11 +5,15 @@ module.exports = {
 		filename: "index123.js",  //打包的js文件名字
 		publicPath: '/assets/js/'
 	},
-	devServer: {}, //开发中 Server，需要安装 webpack-dev-server
+	devServer: {}, 
 	module: {  //模块
 			rules: [{
 				test: /\.(css|less)$/,
 				use: ['style-loader', 'css-loader','less-loader']
+			}],
+			 loaders: [{
+			  	test: /\.json$/,
+				loader: 'json-loader'
 			}]
 		}
 }
