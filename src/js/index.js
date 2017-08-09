@@ -1,0 +1,1 @@
+document.write("<div>你特码的可是出来了</div>")
