@@ -1,0 +1,13 @@
+@import url("aaa.less");
+
+body{
+	background: url("../images/s1.png");
+	font-size: 50px;
+	
+}
+
+h3{
+	width:200px;
+	height:200px; 
+	background: url(../images/01.jpg);
+}
